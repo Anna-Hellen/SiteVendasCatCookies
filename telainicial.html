@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cat's Cookie Sales - Sistema de Vendas de Cookies">
+  <meta name="author" content="Anna Hellen Andrade Moura">
+  <meta name="generator" content="Hugo 0.104.2">
+  
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  
+  
+  <link href="dashboard.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar navbar-dark sticky-top bg-pink flex-md-nowrap p-0 shadow"> 
+  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="telainicial.html">Cat's Cookies Sales</a> 
+  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-nav">
+    <div class="nav-item text-nowrap">
+      <a class="nav-link px-3" href="login.html">Sair</a>
+    </div>
+  </div>
+</header>
+
+<div class="container-fluid">
+  <div class="row">
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+      <div class="position-sticky pt-3 sidebar-sticky">
+        <ul class="nav flex-column">      
+          <li class="nav-item">
+            <a class="nav-link" href="pedidos.php">
+              <span data-feather="shopping-cart" class="align-text-bottom"></span>
+              Pedidos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="produto.php">
+              <span data-feather="shopping-cart" class="align-text-bottom"></span>
+              Produtos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="clientes.php">
+              <span data-feather="users" class="align-text-bottom"></span>
+              Clientes
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="usuario.php">
+              <span data-feather="users" class="align-text-bottom"></span>
+              Usuários
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="relatoriodevendas.php">
+              <span data-feather="bar-chart-2" class="align-text-bottom"></span>
+              Relatórios
+            </a>
+          </li>         
+        </ul>      
+      </div>
+    </nav>
+
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1> ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤCat's Cookies Sales</h1> 
+      </div>
+
+      <h2 class="text-center">Bem-vindo à Cat's Cookie Sales</h2>
+      <p class="text-center">Na Cat Cookie, nossa paixão é proporcionar momentos deliciosos e inesquecíveis para os amantes de gatos.</p>
+
+      
+
+       
+
+      <div class="table-responsive">
+        
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th scope="col">Numero Pedidos######### </th>
+              <th scope="col">Id Pedidos</th>
+              <th scope="col">Produtos</th>
+              <th scope="col">Clientes</th>
+              <th scope="col">Usuários</th>
+              <th scope="col">Relatórios</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1.001</td>
+              <td>Pedido #001</td>
+              <td>Cookie Gato Siames</td>
+              <td>Anna Hellen</td>
+              <td>DEFAULT</td>
+              <td>Relatório 1</td>
+          </tr>
+          <tr>
+              <td>1.002</td>
+              <td>Pedido #002</td>
+              <td>Cookie Gato Persa</td>
+              <td>Markos Ottavio</td>
+              <td>DEFAULT</td>
+              <td>Relatório 2</td>
+          </tr>
+          <tr>
+              <td>1.003</td>
+              <td>Pedido #003</td>
+              <td>Cookie Gato Maine Coon</td>
+              <td>Jacob </td>
+              <td>DEFAULT</td>
+              <td>Relatório 3</td>
+          </tr>
+          <tr>
+              <td>1.004</td>
+              <td>Pedido #004</td>
+              <td>Cookie Gato Bengal</td>
+              <td>Anna Moura</td>
+              <td>1</td>
+              <td>Relatório 4</td>
+          </tr>
+          <tr>
+              <td>1.005</td>
+              <td>Pedido #005</td>
+              <td>Cookie Gato Ragdoll</td>
+              <td>João Silva</td>
+              <td>DEFAULT</td>
+              <td>Relatório 5</td>
+          </tr>
+          <tr>
+            <td>1.006</td>
+            <td>Pedido #006</td>
+            <td>Cookie Gato Sphynx</td>
+            <td>Laura Santos</td>
+            <td>DEFAULT</td>
+             <td>Relatório 6</td>
+        </tr>
+        <tr>
+            <td>1.007</td>
+            <td>Pedido #007</td>
+            <td>Cookie Gato Scottish Fold</td>
+            <td>Pedro Oliveira</td>
+            <td>DEFAULT</td>
+            <td>Relatório 7</td>
+        </tr>
+        <tr>
+            <td>1.008</td>
+            <td>Pedido #008</td>
+            <td>Cookie Gato Maine Coon</td>
+            <td>Maria Costa</td>
+            <td>DEFAULT</td>
+            <td>Relatório 8</td>
+        </tr>
+        <tr>
+            <td>1.009</td>
+            <td>Pedido #009</td>
+            <td>Cookie Gato British Shorthair</td>
+            <td>Ricardo Mendes</td>
+            <td>DEFAULT</td>
+            <td>Relatório 9</td>
+        </tr>
+        <tr>
+            <td>1.010</td>
+            <td>Pedido #010</td>
+            <td>Cookie Gato Bengal</td>
+            <td>Alana Carvalho</td>
+            <td>DEFAULT</td>
+            <td>Relatório 10</td>
+        </tr>
+        <tr>
+          <td>1.011</td>
+          <td>Pedido #011</td>
+          <td>Cookie Gato Scottish Fold</td>
+          <td>Maria Silva</td>
+          <td>DEFAULT</td>
+          <td>Relatório 11</td>
+      </tr>
+      <tr>
+          <td>1.012</td>
+          <td>Pedido #012</td>
+          <td>Cookie Gato Persian</td>
+          <td>José Rodrigues</td>
+          <td>DEFAULT</td>
+          <td>Relatório 12</td>
+      </tr>
+      <tr>
+          <td>1.013</td>
+          <td>Pedido #013</td>
+          <td>Cookie Gato Siamese</td>
+          <td>Mario Bittencourt</td>
+          <td>13</td>
+          <td>Relatório 13</td>
+      </tr>
+      <tr>
+          <td>1.014</td>
+          <td>Pedido #014</td>
+          <td>Cookie Gato Bengal</td>
+          <td>Maria Moura</td>
+          <td>14</td>
+          <td>Relatório 14</td>
+      </tr>
+      <tr>
+          <td>1.015</td>
+          <td>Pedido #015</td>
+          <td>Cookie Gato Maine Coon</td>
+          <td>Alicia Rodrigues</td>
+          <td>15</td>
+          <td>Relatório 15</td>
+      </tr>
+      <tr>
+          <td>1.016</td>
+          <td>Pedido #016</td>
+          <td>Cookie Gato Ragdoll</td>
+          <td>Adamastor Damasceno</td>
+          <td>16</td>
+          <td>Relatório 16</td>
+      </tr>
+      <tr>
+          <td>1.017</td>
+          <td>Pedido #017</td>
+          <td>Cookie Gato Sphynx</td>
+          <td>Almerindo Silva</td>
+          <td>17</td>
+          <td>Relatório 17</td>
+      </tr>
+      <tr>
+          <td>1.018</td>
+          <td>Pedido #018</td>
+          <td>Cookie Gato British Shorthair</td>
+          <td>Adriano Andrade</td>
+          <td>DEFAULT</td>
+          <td>Relatório 18</td>
+      </tr>
+      <tr>
+          <td>1.019</td>
+          <td>Pedido #019</td>
+          <td>Cookie Gato Persian</td>
+          <td>Marcio Marcelo</td>
+          <td>19</td>
+          <td>Relatório 19</td>
+      </tr>
+      <tr>
+          <td>1.020</td>
+          <td>Pedido #020</td>
+          <td>Cookie Gato Bengal</td>
+          <td>Breno Bernardes</td>
+          <td>DEFAULT</td>
+          <td>Relatório 20</td>
+      </tr>
+      
+          </tbody>
+        </table>      
+        
+      </div>
+    </main>
+  </div>
+</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script><script src="../js/dashboard.js"></script>
+
+</body>
+</html>
